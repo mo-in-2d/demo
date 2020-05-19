@@ -59,11 +59,11 @@
         margin: 50px auto;
         width: 250px;
     }
-    
+
     @media only screen and (max-width: 770px) {
         .cover3 {
             margin: 6px auto;
-            width: 100px;            
+            width: 100px;
         }
     }
 
@@ -73,8 +73,25 @@
         padding: 10px;
     }
 
+    .hypocrite2 {
+        position: relative;
+        padding-bottom: 56.25%;
+        /* 16:9 */
+        /*padding-top: 25px;*/
+        height: 0;
+        background-color: #ffc3c3;
+    }
+
+    .hypocrite2 iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
     .songkick {
-        max-height: 90vh;
+        max-height: 80vh;
         color: indianred;
         background-color: #ffc3c3;
     }
@@ -151,6 +168,9 @@
         </div>
     </div>
 
+    <div class="hypocrite2">
+        <iframe width="100vh" height="auto" src="https://www.youtube.com/embed/dlkz6iuF7lQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="col-12 hypocrite"></iframe>
+    </div>
 
     <!--songkick widget-->
     <div class="viewport-3">
@@ -163,6 +183,12 @@
         </div>
     </div>
 
+    <footer class="footer">
+        <span>CREVAZ</span>
+        <a>Contact</a>
+        <a>EPK</a>
+        <span>made by MO_IN_2D</span>
+    </footer>
 
 </body></html>
 
