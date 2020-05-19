@@ -54,27 +54,29 @@
         text-align: center;
         color: indianred;
     }
+
+    .cover3 {
+        margin: 50px auto;
+        width: 250px;
+    }
     
     @media only screen and (max-width: 770px) {
-        .3cover {
-            width: 20px;
-            margin: 0 auto;
-            padding: 0 40px;
+        .cover3 {
+            margin: 6px auto;
+            width: 100px;            
         }
     }
-    
-    .3cover {
-        width: 40px;
-    }
-    
+
     .hypocrite {
         display: inline-block;
         margin: 0 auto;
+        padding: 10px;
     }
 
     .songkick {
         max-height: 90vh;
-        background-color: white;
+        color: indianred;
+        background-color: #ffc3c3;
     }
 </style>
 
@@ -82,7 +84,7 @@
     <!--3 Artworks + title + release date-->
     <div class="viewport-1">
         <div class="inner-div">
-            <h2>HEADLINE</h2>
+            <h2>CREVAZ</h2>
             <div class="container">
                 <div class="row">
                     <!--<div class="col-4">
@@ -105,7 +107,7 @@
                     </div>-->
 
                     <div class="col-4">
-                        <div class="3cover">
+                        <div class="cover3">
                             <img src="https://crevaz.de/wp-content/uploads/2018/10/Heteronomy-CD-Cover-Front-1024x1024.jpg">
 
                             <div class="title-container"><span class="subtitle">TITLE - DATE</span>
@@ -114,7 +116,7 @@
                     </div>
 
                     <div class="col-4">
-                        <div class="3cover">
+                        <div class="cover3">
                             <img src="https://crevaz.de/wp-content/uploads/2018/10/Heteronomy-CD-Cover-Front-1024x1024.jpg">
 
                             <div class="title-container"><span class="subtitle">TITLE - DATE</span>
@@ -123,7 +125,7 @@
                     </div>
 
                     <div class="col-4">
-                        <div class="3cover">
+                        <div class="cover3">
                             <img src="https://crevaz.de/wp-content/uploads/2018/10/Heteronomy-CD-Cover-Front-1024x1024.jpg">
 
                             <div class="title-container"><span class="subtitle">TITLE - DATE</span>
@@ -140,10 +142,11 @@
     <!--music video-->
     <div class="viewport-2">
         <div class="inner-div">
-            <h1>Vh Viewport 2</h1>
-            <h2>Scroll Up</h2>
+            <h2>HYPOCRITE</h2>
             <div class="row">
-                <iframe width="426" height="240" src="https://www.youtube.com/embed/dlkz6iuF7lQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="col-12 hypocrite"></iframe>
+                <div class="hypocrite">
+                    <iframe width="426px" height="240px" src="https://www.youtube.com/embed/dlkz6iuF7lQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="col-12 hypocrite"></iframe>
+                </div>
             </div>
         </div>
     </div>
@@ -152,6 +155,7 @@
     <!--songkick widget-->
     <div class="viewport-3">
         <div class="inner-div">
+            <h2>SHOWS</h2>
             <div class="songkick">
                 <a href="https://www.songkick.com/artists/9756584" class="songkick-widget" data-theme="light" data-other-artists="on" data-track-button="on" data-detect-style="true" data-background-color="transparent" data-locale="en">Upcoming Shows</a>
                 <script src="//widget.songkick.com/9756584/widget.js"></script>
