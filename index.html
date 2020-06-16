@@ -25,23 +25,24 @@
 
     body {
         margin: 0;
+        background-color: #ffc3c3;
     }
 
     .viewport-1 {
         background-size: cover;
-        background-image: url('https://images.unsplash.com/photo-1468657988500-aca2be09f4c6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto');
+        background-image: url('https://images.unsplash.com/photo-1554050857-c84a8abdb5e2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=564&q=80');
         height: 100vh;
     }
 
     .viewport-2 {
-        background-size: cover;
-        background-image: url('https://images.unsplash.com/photo-1507718849053-b1de24eafb18?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto');
-        height: 100vh;
+        /*background-size: cover;
+        background-image: url('');
+        height: 100vh;*/
     }
 
     .viewport-3 {
         background-size: cover;
-        background-image: url('https://images.unsplash.com/photo-1554791756-6d6cb6b45d5d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto');
+        background-image: url('https://images.unsplash.com/photo-1554050857-c84a8abdb5e2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=564&q=80');
         height: 100vh;
     }
 
@@ -52,7 +53,11 @@
         /*max-width: 390px;*/
         max-width: 1200px;
         text-align: center;
-        color: indianred;
+        color: #ffc3c3;
+    }
+    
+    .mabo-10 {
+        margin-bottom: 10px;
     }
 
     .cover3 {
@@ -64,6 +69,7 @@
         .cover3 {
             margin: 6px auto;
             width: 100px;
+            vertical-align: middle;
         }
     }
 
@@ -75,11 +81,20 @@
 
     .hypocrite2 {
         position: relative;
-        padding-bottom: 56.25%;
+        margin: 0 20%;
+        padding-bottom: 30%;
+        /*padding-bottom: 56.25%;*/
         /* 16:9 */
         /*padding-top: 25px;*/
         height: 0;
         background-color: #ffc3c3;
+    }
+    
+    @media only screen and (max-width: 770px) {
+        .hypocrite2 {
+            margin: 0;
+            padding-bottom: 56.25%;
+        }
     }
 
     .hypocrite2 iframe {
@@ -104,26 +119,7 @@
             <h2>CREVAZ</h2>
             <div class="container">
                 <div class="row">
-                    <!--<div class="col-4">
-                        <img src="https://crevaz.de/wp-content/uploads/2018/10/Heteronomy-CD-Cover-Front-1024x1024.jpg">
-                        <h4>TITLE</h4>
-                        <p>DATE</p>
-                    </div>-->
-                    <!--<div class="col-4">
-                        <div class="card">
-                            <div class="card-container">
-                                <div class="card-image" style="background-image: url('https://crevaz.de/wp-content/uploads/2018/10/Heteronomy-CD-Cover-Front-1024x1024.jpg')"></div>
-                                <div class="title-container">
-                                    <p class="title">Cover 3</p><span class="subtitle">By Crevaz</span>
-                                </div>
-                            </div>
-                            <div class="content">
-                                <p>TITLE - DATE</p>
-                            </div>
-                        </div>
-                    </div>-->
-
-                    <div class="col-4">
+                    <div class="col-4 mabo-10">
                         <div class="cover3">
                             <img src="https://crevaz.de/wp-content/uploads/2018/10/Heteronomy-CD-Cover-Front-1024x1024.jpg">
 
@@ -132,7 +128,7 @@
                         </div>
                     </div>
 
-                    <div class="col-4">
+                    <div class="col-4 mabo-10">
                         <div class="cover3">
                             <img src="https://crevaz.de/wp-content/uploads/2018/10/Heteronomy-CD-Cover-Front-1024x1024.jpg">
 
@@ -185,7 +181,7 @@
 
     <footer class="footer">
         <span>CREVAZ</span>
-        <a>Contact</a>
+        <a href="mailto:info@crevaz.de">Contact Us</a>
         <a>EPK</a>
         <span>made by MO_IN_2D</span>
     </footer>
